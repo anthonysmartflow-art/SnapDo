@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Xcode user settings and generated files
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.build/
+*.xcarchive
+*.app
+*.appex
+*.dSYM/
+
+# Local signing material
+*.p12
+*.p8
+*.cer
+*.mobileprovision
+*.provisionprofile
+
+# Local-only notes, secrets, and task data
+LOCAL-MAC-BUILD.md
+.env
+.env.*
+Screenshots/
+screenshot-files.json
+last-completed.txt
+tasks.lock
